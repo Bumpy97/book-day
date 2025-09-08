@@ -4975,8 +4975,7 @@ function qu(e, t, n, r, s, o) {
 		onClick: t[0] || (t[0] = (...i) => o.fetchNewBook && o.fetchNewBook(...i))
 	}, "Показать еще книгу")]), be("div", Uu, [be("button", {
 		onClick: t[1] || (t[1] = (...i) => o.shareWall && o.shareWall(...i))
-	}, "Отправить на стену"), be("", {
-		onClick: t[2] || (t[2] = (...i) => o.shareBook && o.shareBook(...i))
+	
 	}, "Поделиться сервисом")])])]))], 2)])
 }
 const Gu = Bu(Fu, [
